@@ -64,3 +64,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+group :development, :test do
+end
+
+gem "devise", "~> 4.8"
